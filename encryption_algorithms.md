@@ -4,7 +4,7 @@
 - Thuật toán mã hóa đối xứng hiện đại.
 - Phổ biến với độ dài khóa **128-bit** hoặc **256-bit**.
 
-![](./aes.png)
+![](./Encryption_Algorithms/aes.png)
 
 ---
 
@@ -12,14 +12,14 @@
 - **CBC (Cipher Block Chaining) Mode**: Mã hóa khối nối tiếp, mỗi khối được mã hóa dựa trên khối trước.
 - Sử dụng khóa **128-bit** hoặc **256-bit**.
 
-![](./aes_cbc.png)
+![](./Encryption_Algorithms/aes_cbc.png)
 
 ---
 
 ## CBC Mode
 - Chế độ mã hóa khối, cần IV (Vector khởi tạo) để tăng tính bảo mật.
 
-![](./cbc_mode.png)
+![](./Encryption_Algorithms/cbc_mode.png)
 
 ---
 
@@ -27,7 +27,7 @@
 - Vector khởi tạo (IV) được tạo ngẫu nhiên.
 - Đảm bảo tính duy nhất của dữ liệu mã hóa trong CBC.
 
-![](./aes_cbc_iv.png)
+![](./Encryption_Algorithms/aes_cbc_iv.png)
 
 ---
 
@@ -35,7 +35,7 @@
 - Thuật toán mã hóa đối xứng cũ hơn AES.
 - Kém an toàn hơn và tốc độ chậm hơn.
 
-![](./3des.png)
+![](./Encryption_Algorithms/3des.png)
 
 ---
 
@@ -43,7 +43,7 @@
 - Thuật toán mã hóa dòng (stream cipher) cũ.
 - Hiện không an toàn và không được khuyến nghị sử dụng.
 
-![](./rc4.png)
+![](./Encryption_Algorithms/rc4.png)
 
 ---
 
@@ -52,7 +52,7 @@
 - Kết hợp mã hóa và xác thực (**AEAD - Authenticated Encryption with Associated Data**).
 - Ví dụ: `AES_256_GCM`.
 
-![](./aes_gcm.png)
+![](./Encryption_Algorithms/aes_gcm.png)
 
 ---
 
@@ -60,7 +60,7 @@
 - Loại mã hóa kết hợp **mã hóa** và **xác thực**.
 - Ví dụ: **AES-GCM**, **CHACHA20-POLY1305**.
 
-![](./aead_cipher.png)
+![](./Encryption_Algorithms/aead_cipher.png)
 
 ---
 
@@ -69,5 +69,5 @@
 - Thay thế **RC4**.
 - Thường kết hợp với **Poly1305** để xác thực dữ liệu.
 
-![](./chacha_20.png)
+![](./Encryption_Algorithms/chacha_20.png)
 
